@@ -7,22 +7,37 @@
 
 .container{
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
 }
 
 .product{
   width: 30%;
-  background-color: bisque;
   display: inline-block;
   margin: 0 1%;
 }
 
 .product .top{
+  cursor: pointer;
   position: relative;
 }
 
 .top img{
   width: 100%;
+}
+
+.image-b{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.top:hover .image-a{
+  visibility: hidden;
+}
+
+.top:hover .image-b{
+  display: block;
 }
 
 .like{
@@ -62,4 +77,25 @@
 
 .green{
   background-color: #167549;
+}
+
+.bottom{
+  margin-top: 10px;
+}
+
+.brand{
+  font-size: 14px;
+}
+
+.sales-price, .original-price{
+  font-size: 14px;
+}
+
+.sales-price{
+  color: #E0002F;
+  font-weight: bold;
+}
+
+.original-price{
+  text-decoration: line-through;
 }

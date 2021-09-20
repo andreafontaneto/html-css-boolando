@@ -14,6 +14,7 @@
   margin-bottom: 40px;
 }
 
+/* SCHEDA PRODOTTO */
 .product{
   width: 30%;
   display: inline-block;
@@ -25,6 +26,7 @@
   position: relative;
 }
 
+/* box immagine */
 .top img{
   width: 100%;
 }
@@ -44,6 +46,7 @@
   display: block;
 }
 
+/* like badge */
 .like{
   width: 40px;
   height: 40px;
@@ -61,6 +64,7 @@
   line-height: 40px;
 }
 
+/* labels */
 .label{
   position: absolute;
   left: 0;
@@ -83,6 +87,7 @@
   background-color: #167549;
 }
 
+/* DESCRIZIONE PRODOTTO */
 .bottom{
   margin-top: 10px;
 }

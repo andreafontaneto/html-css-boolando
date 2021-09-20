@@ -16,7 +16,7 @@
 
 /* SCHEDA PRODOTTO */
 .product{
-  width: 30%;
+  width: calc((100% / 3) - 3%);
   display: inline-block;
   margin: 0 1%;
 }

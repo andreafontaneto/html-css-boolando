@@ -16,9 +16,9 @@
 
 /* SCHEDA PRODOTTO */
 .product{
-  width: calc((100% / 3) - 3%);
+  width: calc(100% / 3);
   display: inline-block;
-  margin: 0 1%;
+  padding: 10px
 }
 
 .product .top{
@@ -43,7 +43,7 @@
 }
 
 .top:hover .image-b{
-  display: block;
+  display: inline-block;
 }
 
 /* like badge */
